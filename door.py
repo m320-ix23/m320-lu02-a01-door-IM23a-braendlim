@@ -133,12 +133,14 @@ class DoorLock:
     def lock(self):
         """
         Überprüft, ob der door verriegelt ist
+        :return: true
         """
         return True
 
     def unlock(self):
         """
         Überprüft, ob der door verriegelt ist
+        :return: false
         """
         return False
 
