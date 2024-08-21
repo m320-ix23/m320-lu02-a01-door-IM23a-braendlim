@@ -2,7 +2,6 @@
 nur für die korrekte Übersetzung und Ausführung
 """
 
-
 class Door:
   """
   Diese Klasse beschreibt eine Türe mit der Eigenschaft color (Farbe) und den
@@ -130,14 +129,14 @@ class DoorLock:
 
   def lock(self):
     """
-    Überprüft, ob der door verriegelt ist
+    if door_ist_locked is locked
     :return: true
     """
     return True
 
   def unlock(self):
     """
-    Überprüft, ob der door verriegelt ist
+    if door_ist_locked is unlocked
     :return: false
     """
     return False
