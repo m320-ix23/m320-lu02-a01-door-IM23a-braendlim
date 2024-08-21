@@ -125,6 +125,9 @@ class DoorLock:
   """
 
   def __init__(self):
+    self._lock = False
+    self._unlock = False
+
     print("ein Schloss erzeugt")
 
   def lock(self):
